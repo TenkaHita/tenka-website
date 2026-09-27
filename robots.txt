@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mellow-cannoli-1cb0a3.netlify.app/sitemap.xml
+
