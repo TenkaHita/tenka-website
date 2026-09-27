@@ -59,7 +59,7 @@
     <button class="paper-door" id="paper" type="button" aria-label="和紙をめくってホームページを見る"><span class="door-inner"><span class="door-brand"><span class="door-kicker">天ぷらと美酒</span><img class="door-art" src="assets/tenka-calligraphy.webp" alt="天花"></span><span class="door-hint">触れて、めくる</span></span></button>
   </div>
   <header class="site-header"><a class="wordmark" href="#top" aria-label="天花 トップへ">天花</a><nav class="nav" aria-label="メインメニュー"><a href="#about">天花について</a><a href="#food">天ぷら</a><a href="#drink">お酒</a><a href="#info">店舗情報</a></nav></header>
-  <main id="top">
+<main id="top">
     <section class="hero"><div class="hero-copy"><p class="eyebrow">TENKA · TEMPURA & SPIRITS</p><h1>今夜も、<br>寄っていかんね。</h1><p class="hero-text">揚げたての天ぷらと、店主が好きで集めた焼酎やウイスキー。日本酒もワインもあります。難しいことは抜きにして、その日の気分で一杯どうぞ。</p><div class="hero-actions"><a class="btn primary" href="tel:09019708633">電話してみる</a><a class="btn" href="https://www.instagram.com/tenka1967/" target="_blank" rel="noopener">店の様子を見る</a></div></div><div class="hero-mark"><img class="hero-photo" src="assets/1000013449.webp" alt="天花の店頭と店主" fetchpriority="high"><img class="hero-logo" src="assets/tenka-calligraphy.webp" alt=""></div></section>
     <section class="section intro" id="about"><div class="section-head"><span class="section-num">01　天花について</span><h2>まるで、日田の<br>深夜食堂。</h2></div><div class="intro-grid"><p class="lead">腹が減った夜も、ちょっと飲みたい夜も。ふらっと来て、好きなもんを食べて飲んでいってください。</p><p class="body-copy">焼酎やウイスキーを中心に、日本酒、ワインまで。料理に合わせても、好きな酒を先に決めてもよし。初めてでも、ひとりでも、気兼ねはいりません。</p></div><div class="owner-note"><small>店主について</small><h3>「チッ」とか「ふん」とか言うかもしれん。<br>無愛想に見えるけど、ほんとはいい男です。</h3><p>口数は多くありませんが、うまいもんを食べてもらいたい気持ちは人一倍。話したい夜も、静かに飲みたい夜も、店主なりの距離でお迎えします。</p></div></section>
     <section class="photo-story" aria-label="天花の店内"><div class="photo-feature"><img src="assets/1000013454.webp" alt="天花のカウンターに立つ店主" loading="lazy"><div class="photo-side"><img src="assets/1000013450.webp" alt="天花の入口に立つ店主" loading="lazy"><img src="assets/1000013451.webp" alt="天ぷらと美酒 天花の看板" loading="lazy"></div></div></section>
@@ -74,4 +74,3 @@
   <script>const cover=document.getElementById('cover'),paper=document.getElementById('paper');let startY=0;function openCover(){cover.classList.add('opened');document.body.classList.add('opened');setTimeout(()=>cover.setAttribute('aria-hidden','true'),1450)}paper.addEventListener('click',openCover);paper.addEventListener('touchstart',e=>startY=e.touches[0].clientY,{passive:true});paper.addEventListener('touchend',e=>{if(startY-e.changedTouches[0].clientY>35)openCover()},{passive:true});</script>
 </body>
 </html>
-<script async src="/.netlify/scripts/hud?variant=public" data-nf-variant="public" data-netlify-site-id="e67f4e60-ec98-41da-82c5-198cb0cb72c0" data-app-host="app.netlify.com"></script>
